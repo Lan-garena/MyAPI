@@ -17,7 +17,7 @@ class CityResource extends JsonResource
             'id' => $this->id,
             'city_name' => $this->city_name,
             'created_at' => $this->created_at,
-            'weather' => WeatherResource::collection($this->weather),
+            'weather' => new WeatherResource($this->weather),
         ];
     }
 }
