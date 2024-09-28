@@ -23,6 +23,7 @@ class WeatherResource extends JsonResource
             'humidity' => $this->humidity,
             'chance_of_precipitation' => $this->chance_of_precipitation,
             'created_at' => $this->created_at,
+            'city_id' => $this->city_id
         ];
     }
 }

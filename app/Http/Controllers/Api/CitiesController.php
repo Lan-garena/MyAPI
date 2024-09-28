@@ -6,7 +6,6 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests\CityStoreRequest;
 use App\Http\Resources\CityResource;
 use App\Models\City;
-use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 
 class CitiesController extends Controller
