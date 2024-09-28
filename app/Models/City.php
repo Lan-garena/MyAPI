@@ -9,6 +9,7 @@ class City extends Model
 {
     use HasFactory;
 
+    protected $fillable = ['city_name'];
     public function weather(){
         return $this->hasOne(Weather::class);
     }
